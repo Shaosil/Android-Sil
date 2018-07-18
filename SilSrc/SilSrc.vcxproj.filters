@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="angband.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="curses.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="externs.h" />
+    <ClInclude Include="h-basic.h" />
+    <ClInclude Include="h-config.h" />
+    <ClInclude Include="h-define.h" />
+    <ClInclude Include="h-system.h" />
+    <ClInclude Include="h-type.h" />
+    <ClInclude Include="init.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="z-form.h" />
+    <ClInclude Include="z-rand.h" />
+    <ClInclude Include="z-term.h" />
+    <ClInclude Include="z-util.h" />
+    <ClInclude Include="z-virt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="automaton.cpp" />
+    <ClCompile Include="birth.cpp" />
+    <ClCompile Include="cave.cpp" />
+    <ClCompile Include="cmd1.cpp" />
+    <ClCompile Include="cmd2.cpp" />
+    <ClCompile Include="cmd3.cpp" />
+    <ClCompile Include="cmd4.cpp" />
+    <ClCompile Include="cmd5.cpp" />
+    <ClCompile Include="cmd6.cpp" />
+    <ClCompile Include="curses.cpp" />
+    <ClCompile Include="dump_items.cpp" />
+    <ClCompile Include="dungeon.cpp" />
+    <ClCompile Include="files.cpp" />
+    <ClCompile Include="generate.cpp" />
+    <ClCompile Include="init1.cpp" />
+    <ClCompile Include="init2.cpp" />
+    <ClCompile Include="load.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="melee1.cpp" />
+    <ClCompile Include="melee2.cpp" />
+    <ClCompile Include="monster1.cpp" />
+    <ClCompile Include="monster2.cpp" />
+    <ClCompile Include="object1.cpp" />
+    <ClCompile Include="object2.cpp" />
+    <ClCompile Include="obj-info.cpp" />
+    <ClCompile Include="randart.cpp" />
+    <ClCompile Include="save.cpp" />
+    <ClCompile Include="sil.cpp" />
+    <ClCompile Include="spells1.cpp" />
+    <ClCompile Include="spells2.cpp" />
+    <ClCompile Include="squelch.cpp" />
+    <ClCompile Include="tables.cpp" />
+    <ClCompile Include="use-obj.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="variable.cpp" />
+    <ClCompile Include="wizard1.cpp" />
+    <ClCompile Include="wizard2.cpp" />
+    <ClCompile Include="xtra1.cpp" />
+    <ClCompile Include="xtra2.cpp" />
+    <ClCompile Include="z-form.cpp" />
+    <ClCompile Include="z-rand.cpp" />
+    <ClCompile Include="z-term.cpp" />
+    <ClCompile Include="z-util.cpp" />
+    <ClCompile Include="z-virt.cpp" />
+  </ItemGroup>
+</Project>

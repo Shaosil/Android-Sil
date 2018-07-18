@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <AndroidBuildType>Gradle</AndroidBuildType>
+    <RootNamespace>Sil</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{188ebd78-78be-4584-a53a-7acc4396be79}</ProjectGuid>
+    <_PackagingProjectWithoutNativeComponent>true</_PackagingProjectWithoutNativeComponent>
+    <LaunchActivity Condition="'$(LaunchActivity)' == ''">com.Sil.Sil</LaunchActivity>
+    <JavaSourceRoots>src\main\java</JavaSourceRoots>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.props" />
+  <ItemDefinitionGroup>
+    <GradlePackage>
+      <ProjectDirectory>$(ProjectDir)app</ProjectDirectory>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">--stacktrace ZipLib</AdditionalOptions>
+      <ApkFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+      </ApkFileName>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">ZipLib</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">--stacktrace ZipLib</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">--stacktrace ZipLib</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">--stacktrace ZipLib</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">ZipLib</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ZipLib</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x86'">ZipLib</AdditionalOptions>
+    </GradlePackage>
+  </ItemDefinitionGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <GradleTemplate Include="app\build.gradle.template" />
+    <GradleTemplate Include="app\src\main\AndroidManifest.xml.template">
+      <SubType>Designer</SubType>
+    </GradleTemplate>
+    <GradleTemplate Include="build.gradle.template" />
+    <GradleTemplate Include="settings.gradle.template" />
+    <GradleTemplate Include="gradle\wrapper\gradle-wrapper.properties.template" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaCompile Include="app\src\main\java\AngbandDialog.java" />
+    <JavaCompile Include="app\src\main\java\AngbandKeyboard.java" />
+    <JavaCompile Include="app\src\main\java\AngbandKeyboardView.java" />
+    <JavaCompile Include="app\src\main\java\GameActivity.java" />
+    <JavaCompile Include="app\src\main\java\GameThread.java" />
+    <JavaCompile Include="app\src\main\java\HelpActivity.java" />
+    <JavaCompile Include="app\src\main\java\Installer.java" />
+    <JavaCompile Include="app\src\main\java\KeyBuffer.java" />
+    <JavaCompile Include="app\src\main\java\KeyMap.java" />
+    <JavaCompile Include="app\src\main\java\KeyMapModPreference.java" />
+    <JavaCompile Include="app\src\main\java\KeyMapper.java" />
+    <JavaCompile Include="app\src\main\java\KeyMapPreference.java" />
+    <JavaCompile Include="app\src\main\java\KeyMapResetPreference.java" />
+    <JavaCompile Include="app\src\main\java\NativeWrapper.java" />
+    <JavaCompile Include="app\src\main\java\Preferences.java" />
+    <JavaCompile Include="app\src\main\java\PreferencesActivity.java" />
+    <JavaCompile Include="app\src\main\java\Profile.java" />
+    <JavaCompile Include="app\src\main\java\ProfileAddActivity.java" />
+    <JavaCompile Include="app\src\main\java\ProfileCheckBoxPreference.java" />
+    <JavaCompile Include="app\src\main\java\ProfileList.java" />
+    <JavaCompile Include="app\src\main\java\ProfilesActivity.java" />
+    <JavaCompile Include="app\src\main\java\ScoreContainer.java" />
+    <JavaCompile Include="app\src\main\java\SeekBarPreference.java" />
+    <JavaCompile Include="app\src\main\java\SilActivity.java" />
+    <JavaCompile Include="app\src\main\java\StateManager.java" />
+    <JavaCompile Include="app\src\main\java\TermView.java" />
+    <JavaCompile Include="app\src\main\java\TermWindow.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\lib\apex\tutorial" />
+    <Content Include="app\lib\docs\changes.txt" />
+    <Content Include="app\lib\docs\compile.txt" />
+    <Content Include="app\lib\docs\copying.txt" />
+    <Content Include="app\lib\docs\early-changes.txt" />
+    <Content Include="app\lib\edit\ability.txt" />
+    <Content Include="app\lib\edit\artefact.txt" />
+    <Content Include="app\lib\edit\flavor.txt" />
+    <Content Include="app\lib\edit\history.txt" />
+    <Content Include="app\lib\edit\house.txt" />
+    <Content Include="app\lib\edit\limits.txt" />
+    <Content Include="app\lib\edit\monster.txt" />
+    <Content Include="app\lib\edit\names.txt" />
+    <Content Include="app\lib\edit\object.txt" />
+    <Content Include="app\lib\edit\race.txt" />
+    <Content Include="app\lib\edit\special.txt" />
+    <Content Include="app\lib\edit\terrain.txt" />
+    <Content Include="app\lib\edit\vault.txt" />
+    <Content Include="app\lib\pref\flvr-dvg.prf" />
+    <Content Include="app\lib\pref\flvr-new.prf" />
+    <Content Include="app\lib\pref\flvr-xxx.prf" />
+    <Content Include="app\lib\pref\font-dos.prf" />
+    <Content Include="app\lib\pref\font-mac.prf" />
+    <Content Include="app\lib\pref\font-win.prf" />
+    <Content Include="app\lib\pref\font-x11.prf" />
+    <Content Include="app\lib\pref\font-xxx.prf" />
+    <Content Include="app\lib\pref\font.prf" />
+    <Content Include="app\lib\pref\graf-dvg.prf" />
+    <Content Include="app\lib\pref\graf-gcu.prf" />
+    <Content Include="app\lib\pref\graf-mac.prf" />
+    <Content Include="app\lib\pref\graf-new.prf" />
+    <Content Include="app\lib\pref\graf-win.prf" />
+    <Content Include="app\lib\pref\graf-x11.prf" />
+    <Content Include="app\lib\pref\graf-xxx.prf" />
+    <Content Include="app\lib\pref\graf.prf" />
+    <Content Include="app\lib\pref\message.prf" />
+    <Content Include="app\lib\pref\pref-dos.prf" />
+    <Content Include="app\lib\pref\pref-emx.prf" />
+    <Content Include="app\lib\pref\pref-gcu.prf" />
+    <Content Include="app\lib\pref\pref-mac.prf" />
+    <Content Include="app\lib\pref\pref-win.prf" />
+    <Content Include="app\lib\pref\pref-x11.prf" />
+    <Content Include="app\lib\pref\pref.prf" />
+    <Content Include="app\lib\pref\races.prf" />
+    <Content Include="app\lib\pref\shades.prf" />
+    <Content Include="app\lib\pref\user.prf" />
+    <Content Include="app\lib\pref\xtra-dvg.prf" />
+    <Content Include="app\lib\pref\xtra-new.prf" />
+    <Content Include="app\lib\pref\xtra-xxx.prf" />
+    <Content Include="app\lib\xtra\sound\breath.wav" />
+    <Content Include="app\lib\xtra\sound\clunk.wav" />
+    <Content Include="app\lib\xtra\sound\death.wav" />
+    <Content Include="app\lib\xtra\sound\destroy.wav" />
+    <Content Include="app\lib\xtra\sound\drop.wav" />
+    <Content Include="app\lib\xtra\sound\eat.wav" />
+    <Content Include="app\lib\xtra\sound\flee.wav" />
+    <Content Include="app\lib\xtra\sound\hallu.wav" />
+    <Content Include="app\lib\xtra\sound\hit.wav" />
+    <Content Include="app\lib\xtra\sound\hit1.wav" />
+    <Content Include="app\lib\xtra\sound\kill.wav" />
+    <Content Include="app\lib\xtra\sound\kill1.wav" />
+    <Content Include="app\lib\xtra\sound\level.wav" />
+    <Content Include="app\lib\xtra\sound\miss.wav" />
+    <Content Include="app\lib\xtra\sound\miss1.wav" />
+    <Content Include="app\lib\xtra\sound\money.wav" />
+    <Content Include="app\lib\xtra\sound\opendoor.wav" />
+    <Content Include="app\lib\xtra\sound\shutdoor.wav" />
+    <Content Include="app\lib\xtra\sound\sound.cfg" />
+    <Content Include="app\lib\xtra\sound\thump.wav" />
+    <Content Include="app\lib\xtra\sound\vomit.wav" />
+    <Content Include="app\src\main\assets\8x13.ttf" />
+    <Content Include="app\src\main\assets\help.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\assets\VeraMoBd.ttf" />
+    <Content Include="app\src\main\res\drawable\att256.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\btn_radio_off.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\btn_radio_on.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\menu_add.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\menu_help.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\menu_preferences.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\menu_quit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\sil_icon.png" />
+    <Content Include="app\src\main\res\drawable\sym_keyboard_delete.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\sym_keyboard_return.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\sym_keyboard_shift.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\drawable\sym_keyboard_space.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\layout\preferenceseekbar.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="app\src\main\res\layout\help.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\layout\input.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\layout\profile.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\layout\profileadd.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\layout\profilerow.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\layout\splash.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\menu\main.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\menu\profile.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\raw\zipsil" />
+    <Content Include="app\src\main\res\values\attrs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="app\src\main\res\values\dimens.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\values\strings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\xml\keyboard_qwerty.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\xml\keyboard_sym.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\xml\keyboard_symshift.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\src\main\res\xml\preferences.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\lib\data\" />
+    <Folder Include="app\lib\save\" />
+    <Folder Include="app\lib\user\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SilSrc\SilSrc.vcxproj" />
+  </ItemGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

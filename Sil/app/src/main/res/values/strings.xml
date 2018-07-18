@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Sil</string>
+	<string name="description">Sil is a dungeon-crawling roguelike RPG game descended from Angband.</string>
+
+	<string name="menu_preferences">Preferences</string>
+	<string name="menu_profiles">Profiles</string>
+	<string name="menu_profile_add">New Profile</string>
+	<string name="menu_help">Help</string>
+	<string name="menu_scoreloop">Scoreloop</string>
+	<string name="menu_leaderboard">Local Leaderboard</string>
+	<string name="menu_quit">Quit</string>
+
+	<string name="sil_help">Sil Help</string>
+	<string name="preferences">Preferences</string>
+	<string name="profiles">Profiles</string>
+	<string name="profileadd">Edit Profile</string>
+	<string name="profile_name_caption">Name or description of profile</string>
+	<string name="profile_savefile_caption">Filename for saved game</string>
+
+	<string name="display_category">Display</string>
+	<string name="control_category">Control</string>
+	<string name="game_category">Game</string>
+
+	<string name="preferences_font_title">Font</string>
+	<string name="preferences_vibrate_title">Vibrate</string>
+	<string name="preferences_vibrate_summary">Enable or disable vibration in game</string>
+	<string name="preferences_fullscreen_title">Full screen</string>
+	<string name="preferences_fullscreen_summary">Enable or disable game in full screen</string>
+	<string name="preferences_orientation_title">Orientation</string>
+	<string name="preferences_keyboardOverlap_title">Keyboard Overlap</string>
+	<string name="preferences_keyboardOverlap_summary">Overlay the keyboard on top of the game view (enables opacity setting)</string>
+	<string name="preferences_gameplugin_title">Selected variant</string>
+	<string name="preferences_gameplugin_summary">Note that these Game settings stick to the active profile</string>
+	<string name="preferences_enablevkey_title">Enable virtual keyboard</string>
+	<string name="preferences_enablevkey_summary">Display virtual keyboard (forces portrait orientation)</string>
+	<string name="preferences_portraitkb_title">Portrait keyboard</string>
+	<string name="preferences_portraitkb_summary">Display virtual keyboard in portrait orientation</string>
+	<string name="preferences_landscapekb_title">Landscape keyboard</string>
+	<string name="preferences_landscapekb_summary">Display virtual keyboard in landscape orientation</string>
+	<string name="preferences_enablevolkeyfontsize_title">Volume key font sizing</string>
+	<string name="preferences_enablevolkeyfontsize_summary">Font size changed by volume up &amp; down keys</string>
+	<string name="preferences_enabletouch_title">Enable touch directionals</string>
+	<string name="preferences_enabletouch_summary">Turn on touchscreen directional controls</string>
+	<string name="preferences_alwaysrun_title">Always run</string>
+	<string name="preferences_alwaysrun_summary">Always run when using touch directional commands</string>
+
+	<string-array name="fonts">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+
+	<string-array name="fontDescriptions">
+		<item>Modern</item>
+		<item>Classic</item>
+	</string-array>
+
+	<string-array name="orientations">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<string-array name="orientationDescriptions">
+		<item>Sensor (System)</item>
+		<item>Sensor (Forced)</item>
+		<item>Portrait</item>
+		<item>Landscape</item>
+	</string-array>
+
+	<string-array name="virtKeyActionDescriptions">
+		<item>None</item>
+		<item>Ctrl Key</item>
+		<item>Enter Key</item>
+		<item>Esc Key</item>
+		<item>Period</item>
+		<item>Shift Key</item>
+		<item>Space</item>
+		<item>Wait</item>
+		<item>Virtual Keyboard</item>
+		<item>Zoom In</item>
+		<item>Zoom Out</item>
+	</string-array>
+
+	<string-array name="virtKeyActions">
+		<item>None</item>
+		<item>CtrlKey</item>
+		<item>EnterKey</item>
+		<item>EscKey</item>
+		<item>Period</item>
+		<item>ShiftKey</item>
+		<item>Space</item>
+		<item>Wait</item>
+		<item>VirtualKeyboard</item>
+		<item>ZoomIn</item>
+		<item>ZoomOut</item>
+	</string-array>
+</resources>

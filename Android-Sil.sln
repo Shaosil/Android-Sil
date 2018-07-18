@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{39E2626F-3545-4960-A6E8-258AD8476CE5}") = "Sil", "Sil\Sil.androidproj", "{188EBD78-78BE-4584-A53A-7ACC4396BE79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SilSrc", "SilSrc\SilSrc.vcxproj", "{D3757ACD-E44B-4B23-A905-54878730EF1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|ARM.ActiveCfg = Debug|ARM
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|ARM.Build.0 = Debug|ARM
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|ARM.Deploy.0 = Debug|ARM
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|ARM64.Build.0 = Debug|ARM64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|x64.ActiveCfg = Debug|x64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|x64.Build.0 = Debug|x64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|x64.Deploy.0 = Debug|x64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|x86.ActiveCfg = Debug|x86
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|x86.Build.0 = Debug|x86
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Debug|x86.Deploy.0 = Debug|x86
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|ARM.ActiveCfg = Release|ARM
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|ARM.Build.0 = Release|ARM
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|ARM.Deploy.0 = Release|ARM
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|ARM64.ActiveCfg = Release|ARM64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|ARM64.Build.0 = Release|ARM64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|ARM64.Deploy.0 = Release|ARM64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|x64.ActiveCfg = Release|x64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|x64.Build.0 = Release|x64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|x64.Deploy.0 = Release|x64
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|x86.ActiveCfg = Release|x86
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|x86.Build.0 = Release|x86
+		{188EBD78-78BE-4584-A53A-7ACC4396BE79}.Release|x86.Deploy.0 = Release|x86
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|ARM.Build.0 = Debug|ARM
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|x64.ActiveCfg = Debug|x64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|x64.Build.0 = Debug|x64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|x86.ActiveCfg = Debug|x86
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Debug|x86.Build.0 = Debug|x86
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|ARM.ActiveCfg = Release|ARM
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|ARM.Build.0 = Release|ARM
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|ARM64.ActiveCfg = Release|ARM64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|ARM64.Build.0 = Release|ARM64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|x64.ActiveCfg = Release|x64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|x64.Build.0 = Release|x64
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|x86.ActiveCfg = Release|x86
+		{D3757ACD-E44B-4B23-A905-54878730EF1C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F32C2CC-1278-4844-A32E-1D2FE04C5692}
+	EndGlobalSection
+EndGlobal

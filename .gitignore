@@ -63,3 +63,23 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
+# VS Stuff
+/Screenshots
+/Releasing
+/.workspace
+/.vs/Android-Sil/v15
+/ARM
+/ARM64
+/x64
+/x86
+/Sil/.vs/Sil/v15
+/Sil/app/src/main/jniLibs
+/Sil/ARM
+/Sil/ARM64
+/Sil/x64
+/Sil/x86
+/SilSrc/ARM
+/SilSrc/ARM64
+/SilSrc/x64
+/SilSrc/x86
