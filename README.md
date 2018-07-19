@@ -31,6 +31,7 @@ Most of the code for the app came from the Angdroid port for Angband <a href="ht
 <b>Things I may or may not get to someday</b>
 <ul>
 <li>Add way to view manual from app, or at least link to it.</li>
+<li>Add optional visible guidelines to the part of the screen which is tappable, if using tap movement.</li>
 <li>A single row sliding keyboard would be nice, though I think the transparent option helps a lot, so it may be more effort than it's worth.</li>
 <li>Want a way to copy over ALL settings from last character on a new one, currently the skills are zeroed out.</li>
 <li>Filling the whole screen with the game view may be useful, but I'm not even sure if Sil would allow that type of aspect ratio.</li>
